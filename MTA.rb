@@ -22,7 +22,7 @@ puts lines[start_line_symbol]
 puts "Please choose your current station: "
 start_station = gets.chomp.downcase
 
-puts "What line is your destination on?"
+puts "What line is your destination on? n, l or s ?"
 destination_line = gets.chomp.downcase
 
 puts "What is your final stop?"
